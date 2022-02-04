@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "647750191992",
+    "project_id": "e-vaccine-2e6ad",
+    "storage_bucket": "e-vaccine-2e6ad.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:647750191992:android:85ead3b7fc580c7716568d",
+        "android_client_info": {
+          "package_name": "com.example.e_vaccine"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "647750191992-h7l5roeqblftqeetc9otrrssfvs42f97.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDj136XpjXmVy9jEZtu7_4fvn6LX-oeA4k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "647750191992-h7l5roeqblftqeetc9otrrssfvs42f97.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

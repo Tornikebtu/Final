@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:paddingHorizontal="15dp">
+
+
+    <EditText
+        android:id="@+id/loginEmailEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#7A9E9D9D"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:gravity="center"
+        android:minHeight="48dp"
+        android:layout_marginBottom="10dp"/>
+
+    <EditText
+        android:id="@+id/loginPasswordEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="პაროლი"
+        android:inputType="numberPassword"
+        android:gravity="center"
+        android:minHeight="48dp"
+        android:background="#7A9E9D9D"
+        android:password="true" />
+
+    <Button
+        android:id="@+id/loginButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="შესვლა"
+        android:backgroundTint="#005DBF"
+        android:layout_marginTop="20dp"/>
+
+    <Button
+        android:id="@+id/loginRegistrationButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="რეგისტრაცია"
+        android:backgroundTint="#005DBF"/>
+
+    <Button
+        android:id="@+id/loginForgotPasswordButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="დამავიწყდა პაროლი"
+        android:backgroundTint="#005DBF"/>
+
+</LinearLayout>

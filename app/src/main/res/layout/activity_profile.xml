@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:paddingHorizontal="15dp"
+    tools:context=".ProfileActivity">
+
+    <TextView
+        android:id="@+id/profileUserName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="220dp"
+        android:gravity="center"
+        android:minHeight="48dp"
+        android:text="მომხმარებელი"
+        android:textColor="#005DBF"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toTopOf="@+id/profileQRImageView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/profileQRImageView"
+        android:layout_width="303dp"
+        android:layout_height="299dp"
+        android:layout_marginBottom="100dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@android:drawable/screen_background_dark_transparent" />
+
+    <TextView
+        android:id="@+id/profileQRtext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:ems="10"
+        android:gravity="center"
+        android:minHeight="48dp"
+        android:text="ვაქცინაციის QR კოდი"
+        android:textColor="#005DBF"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toTopOf="@+id/profileQRImageView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <!--    <TextView-->
+<!--        android:id="@+id/editTextTextPersonName4"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:ems="10"-->
+<!--        android:gravity="center"-->
+<!--        android:minHeight="48dp"-->
+<!--        android:text="სახელი"-->
+<!--        android:textSize="16dp"-->
+<!--        app:layout_constraintEnd_toEndOf="@+id/profileIdNumber"-->
+<!--        app:layout_constraintStart_toStartOf="@+id/profileIdNumber"-->
+<!--        tools:layout_editor_absoluteY="193dp" />-->
+
+    <TextView
+        android:id="@+id/profileIdNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:ems="10"
+        android:gravity="center"
+        android:minHeight="48dp"
+        android:text="პირადი ნომერი"
+        android:textSize="18dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.551"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/profileUserName" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="430dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="0dp"
+        android:background="#DD787878"
+        android:gravity="center"
+        android:text="E-Vaccine"
+        android:textColor="#005DBF"
+        android:textSize="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/profileChangePasswordButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#005DBF"
+        android:text="პაროლის შეცვლა"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.448"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/profileQRImageView"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/profileLogoutButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#005DBF"
+        android:text="გასვლა"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/profileChangePasswordButton" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
